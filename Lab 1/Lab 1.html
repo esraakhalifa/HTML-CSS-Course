@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+    <!--Q!: What is HTML?-->
+    <!--
+    HTML stands for Hyper Text Markup Language
+    HTML is the standard markup language for creating Web pages
+    HTML describes the structure of a Web page
+    HTML consists of a series of elements
+    HTML elements tell the browser how to display the content
+    HTML elements label pieces of content such as "this is a heading", "this is a paragraph", "this is a link", etc.
+    It is worth noting that HTML is not a programming language, it only describes the structure of the web pages
+    -->
+    <head>
+        <title>
+            Hello ,World!
+        </title>
+        <meta charset="UTF-8"></meta>
+        <meta name = " description" content = "This is my first web page in the course. ">
+        <meta name = "Author" content = "Esraa Khalifa">
+        <meta name = "keywords" content = " ITI, Open Source, Esraa, Esraa Khalifa, ITI New Capital">  
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="mystyle.css">
+        <link rel="icon" type="png" href="book.png">
+    </head>
+    <body>
+        <h1>Hello, world!</h1>
+        <p><b>My name is Esraa Khalifa</b></p>
+        <br>
+        <strong>I'm part of the open-source track at ITI.</strong>
+        <br>
+        <p> <u>This track is at the New Capital branch</u></p>
+        <p><s>New Capital Branch is under construction</s></p>
+        <p><i> Hello you guys</i></p>
+        <h2>This is a paragraph from an interesting article I read about learning and effort</h2>
+        <pre>
+    Previous research has shown that the prospect of attaining a reward can promote task-engagement,
+    up-regulate attention toward reward-relevant information, and facilitate enhanced encoding of new information into declarative memory.
+    However, past research on reward-based enhancement of declarative memory has focused primarily on paradigms in which rewards are 
+    contingent upon accurate responses. Yet, findings from test-enhanced learning show that making errors can also be useful for learning 
+    if those errors represent effortful retrieval attempts and are followed by corrective feedback. Here, we used a challenging general 
+    knowledge task to examine the effects of explicitly rewarding retrieval effort, defined as a semantically plausible answer to a question 
+    (referenced to a semantic knowledge database www.mangelslab.org/bknorms), regardless of response accuracy. In particular, we asked whether 
+    intermittent rewards following effortful incorrect responses facilitated learning from corrective feedback as measured by incidental 
+    learning outcomes on a 24–48 h delayed retest
+        </pre>
+    <!--
+        The difference between:
+        1) b and strong ==> b is for making the text bold, strong is for indicating that the contained text is important, however
+        the contained text in the strong tag is also bold, but strong enhances accessibility
+        2) i and em ==> i is for making the text italic, em is for emphasizing the text, the contained text in em tags
+        is in italic, but as we mentioned in strong tags, em ehnances accessibilty
+        3) s and del ==> both are used to indicate removed text from the document
+        s is used for text that is no longer valid or is outdated, stylistic purposes
+        del is used when a text is intentionally removed from the content, for semantic purposes
+        4) As we've mentioned above, s is for styling outdated information, ins is for
+        the highlighting the updated information
+    -->
+
+    <h2>Here's a list of items</h2>
+    <ol type = "I">
+        <li>List Item 1</li>
+        <ol type="a">
+            <li> nested item 1.1</li>
+            <li> nested item 1.2</li>
+        </ol>
+        <li> List Item 2</li>
+        <ol type = "1">
+            <li>nested item 2.1</li>
+            <li>nested item 2.2</li>
+            <ul type = "circle">
+                <li>nested item 2.2.1</li>
+                <li>nested item 2.2.2</li>
+                <ul type = "square">
+                    <li>nested item 2.2.2.1</li>
+                    <li>nested item 2.2.2.2</li>
+                </ul>
+                <li>nested item 2.2.3</li>
+            </ul>
+            <li>nested item 2.3</li>
+        </ol>
+        <li>List Item 3</li>
+        <ul type = "disc">
+            <li>nested item 3.1</li>
+            <li>nested item 3.1</li>
+            <li>nested item 3.1</li>
+        </ul>
+    </ol>
+    <table  border="1">
+        <tr>
+            <th rowspan="3" colspan="1">Day</th>
+            <th colspan="4" rowspan="1">Seminar</th>
+        </tr>
+        <tr>
+            <th colspan="2" rowspan="1">Schedule</th>
+            <th colspan="2" rowspan="2">Topic</th>
+        </tr> 
+        <tr>
+            <th colspan="1" rowspan="1">Begin</th>
+            <th colspan="1" rowspan="1">End</th>
+        </tr>
+        <tr>
+            <td rowspan="2">Monday</td>
+            <td rowspan="2">8:00 a.m.</td>
+            <td rowspan="2">5:00 p.m.</td>
+            <td colspan="2">Introduction to XML</td>
+        </tr>
+        <tr>
+            <td colspan="2">Validity: DTD and Relax NG</td>
+        </tr>
+        <tr>
+            <td rowspan="3">Tuesday</td>
+            <td colspan="1">8:00 a.m.</td>
+            <td colspan="1">11:00 a.m.</td>
+            <td colspan="2" style="text-align: center;">XPATH</td>
+        </tr>
+        <tr>
+            <td colspan="1">11:00 a.m.</td>
+            <td colspan="1">2:00 a.m.</td>
+            <td colspan="2" rowspan="2" >XSL Transformations</td>
+        </tr>
+        <tr>
+            <td colspan="1">2:00 a.m.</td>
+            <td colspan="1">5:00 a.m.</td>
+        </tr>
+        <tr>
+            <td>Wednesday</td>
+            <td>8:00 a.m.</td>
+            <td>12:00 p.m.</td>
+            <td colspan="2">XSL Formatting Objects</td>
+        </tr>
+    </table>
+    <a href="https://www.w3schools.com/">Visit W3Schools.com!</a>
+    <br>
+    <a href="https://www.w3schools.com/" target = "_blank">Visit W3Schools.com in a new page</a>
+    <br>
+    <img src="il_fullxfull.1572772314_ayp6.avif" alt ="funky doodle" width="50%">
+    <br>
+    <img src="https://th.bing.com/th/id/R.e7250acbc82c2d1e648e1815f019ade3?rik=hujWZPiI1URc2A&pid=ImgRaw&r=0" alt="warm colors">
+    <a href="https://www.nytimes.com/2020/11/30/us/teachers-remote-learning-burnout.html?action=click&module=Top%20Stories&pgtype=Homepage" target="_blank"> 
+        <img src="2f158b3ec0afde68db7795d5a65ef20b.jpg"  alt="nytimes article">
+    </a>
+    <br>
+<iframe width="1466" height="537" src="https://www.youtube.com/embed/tgbNymZ7vqY" title="Bohemian Rhapsody | Muppet Music Video | The Muppets" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    <br>
+    <video width="320" height="240" controls>
+        <source src="C:\Users\Esraa\Downloads\Day4-DataStructure Tree-20241221_092334-Meeting Recording.mp4" type="video/mp4">
+        
+      Your browser does not support the video tag.
+      </video>
+    </body>
+
+</html>
