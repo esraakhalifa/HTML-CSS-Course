@@ -1,0 +1,14 @@
+body{
+    background-color: aqua;
+}
+.form-info {
+    background-color: black;
+    color:aqua
+    }
+#submit-button {
+        background-color: yellow;
+      }
+      fieldset legend { 
+        border: 1px solid #ccc; /* border width style and color should always be defined */
+        padding: 5px; 
+      }

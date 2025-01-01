@@ -1,0 +1,149 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: plum;
+    color: black;
+    text-align: center;
+    padding: 1em 0;
+}
+
+.subtitle {
+    font-size: 1em;
+    color: #ddd;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    background: #333;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    margin: 0 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    padding: 10px 15px;
+}
+
+nav ul li a:hover {
+    background: #575757;
+    border-radius: 5px;
+}
+
+
+main {
+    margin: 20px;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+table, th, td {
+    border: 1px solid #ccc;
+}
+
+th, td {
+    padding: 8px;
+    text-align: center;
+}
+
+
+.profile-card {
+    text-align: center;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 20px;
+    width: 300px;
+    margin: 20px auto;
+}
+
+.profile-card img {
+    width: 100px;
+    border-radius: 50%;
+}
+
+.profile-card button {
+    background: plum;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.profile-card button:hover {
+    background: plum;
+}
+
+
+.gallery {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+}
+
+.image-item img {
+    width: 200px;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+}
+
+.image-item p {
+    text-align: center;
+    margin-top: 5px;
+}
+
+
+form {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin: 20px auto;
+    width: 50%;
+    border-radius: 10px;
+}
+
+form label, form input, form select {
+    display: block;
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+fieldset {
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+
+.food-list ul {
+    margin: 20px;
+}
+
+.food-list li {
+    margin-bottom: 10px;
+}
+
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background: #333;
+    color: white;
+}

@@ -1,0 +1,38 @@
+<html>
+    <header>
+        <title>
+            Survey Form
+        </title>
+        <link rel="stylesheet" href="survey style.css">
+    </header>
+    <form class="form">
+        <fieldset>
+            <legend>Personal Information</legend>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name"><br>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email"><br>
+        </fieldset>
+        <fieldset>
+            <legend>Survey</legend>
+            <label for="question1">How satisfied are you with our service?</label><br>
+            <input type="radio" id="satisfied" name="question1" value="satisfied">
+            <label for="satisfied">Satisfied</label><br>
+            <input type="radio" id="unsatisfied" name="question1" value="unsatisfied">
+            <label for="unsatisfied">Unsatisfied</label><br><br>
+            
+            <label for="question2">How likely are you to recommend us to others?</label><br>
+            <input type="radio" id="likely" name="question2" value="likely">
+            <label for="likely">Likely</label><br>
+            <input type="radio" id="unlikely" name="question2" value="unlikely">
+            <label for="unlikely">Unlikely</label><br><br>
+    
+            <label for="question3">Any suggestions for improvement?</label><br>
+            <textarea id="question3" name="question3"></textarea><br>
+        </fieldset>
+    
+        <input type="submit" value="Submit">
+    </form>
+</html>
+

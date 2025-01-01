@@ -1,0 +1,6 @@
+/* Custom radio button styling */
+input[type="radio"] + label {
+    padding-left: 35px; 
+    font-size: 16px;
+    line-height: 20px;
+}

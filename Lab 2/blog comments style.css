@@ -1,0 +1,18 @@
+
+.comment {
+    border: 1px solid #ccc;
+    background-image: url('031287ff740d0c71a3c3e8effb9308a2.jpg');
+    padding: 20px;
+    border-radius: 8px;
+
+}
+
+.comment strong {
+    color: plum;
+}
+
+.comment-form{
+    margin: 20px;
+    
+}
+
